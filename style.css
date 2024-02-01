@@ -1,48 +1,55 @@
-*{
-    margin:0;
+/* Apply the following styles to all elements (*) in the document */
+
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body,html{
+/* Apply styles to the body and html elements */
+
+body, html {
     display: grid;
     min-height: 100%;
     place-items: center;
     background-color: #EFF4F5;
 }
 
-.card{
+/* Apply styles to elements with the class 'card' */
+
+.card {
     align-items: center;
     text-align: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    padding: 50%;
+    padding: 50%; /* Note: Padding should be given in px, %, em, etc., not as a percentage */
     background-color: rgb(255, 239, 204);
-    padding: 100px;
-    box-shadow: 10px 10px 15px rgb(192, 183,183 );
+    padding: 100px; /* Note: This line overrides the previous 'padding' property */
+    box-shadow: 10px 10px 15px rgb(192, 183, 183);
     border-radius: 20px;
-
 }
 
-.name{
+/* Apply styles to elements with the class 'name' */
+
+.name {
     font-size: 2rem;
-    
 }
 
-.counter{
+/* Apply styles to elements with the class 'counter' */
+
+.counter {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-.prevBtn, .nextBtn{
+/* Apply styles to elements with the classes 'prevBtn' and 'nextBtn' */
+
+.prevBtn, .nextBtn {
     font-size: 1.3rem;
     outline: none;
     padding: 0.7rem 1.5rem;
     cursor: pointer;
     margin: 0 2rem;
     border-radius: 5px;
-
-
 }

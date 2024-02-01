@@ -42,6 +42,7 @@ body,html{
     padding: 0.7rem 1.5rem;
     cursor: pointer;
     margin: 0 2rem;
+    border-radius: 5px;
 
 
 }
